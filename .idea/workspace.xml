@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="fb0787aa-47f9-45f0-9e1a-22deb4a21790" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager-Application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Manager-Application/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager-Application/src/main/java/com/manager/service/Config/CloudConfigurations.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager-Application/src/main/java/com/manager/service/Config/CloudConfigurations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager-Application/src/main/java/com/manager/service/Controller/ManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager-Application/src/main/java/com/manager/service/Controller/ManagerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Employee-Application/src/main/java/com/employee/service/Filters/MyRequestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Employee-Application/src/main/java/com/employee/service/Filters/MyRequestFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Manager-Application/src/main/java/com/manager/service/Filters/MyRequestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager-Application/src/main/java/com/manager/service/Filters/MyRequestFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager-Application/src/main/java/com/manager/service/Service/UrlService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manager-Application/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Manager-Application/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager-Application/src/main/java/com/manager/service/ManagerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager-Application/src/main/java/com/manager/service/ManagerApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +58,7 @@
       <recent name="G:\Project\Task-ms\Employee-Application" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EmployeeApplication">
+  <component name="RunManager" selected="Application.ManagerApplication">
     <configuration name="ConfigServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.config.ConfigServerApplication" />
       <module name="Config-Server" />
@@ -116,10 +113,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EmployeeApplication" />
         <item itemvalue="Application.ManagerApplication" />
-        <item itemvalue="Application.ConfigServerApplication" />
         <item itemvalue="Application.EurekaServerApplication" />
+        <item itemvalue="Application.EmployeeApplication" />
+        <item itemvalue="Application.ConfigServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -165,22 +162,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1596182324278" />
-    <state width="1323" height="456" key="GridCell.Tab.0.bottom" timestamp="1596196923880">
+    <state width="1323" height="345" key="GridCell.Tab.0.bottom" timestamp="1596199059265">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="456" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596196923880" />
-    <state width="1323" height="456" key="GridCell.Tab.0.center" timestamp="1596196923880">
+    <state width="1323" height="345" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596199059265" />
+    <state width="1323" height="345" key="GridCell.Tab.0.center" timestamp="1596199059265">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="456" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596196923880" />
-    <state width="1323" height="456" key="GridCell.Tab.0.left" timestamp="1596196923880">
+    <state width="1323" height="345" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596199059265" />
+    <state width="1323" height="345" key="GridCell.Tab.0.left" timestamp="1596199059265">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="456" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596196923880" />
-    <state width="1323" height="456" key="GridCell.Tab.0.right" timestamp="1596196923880">
+    <state width="1323" height="345" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596199059265" />
+    <state width="1323" height="345" key="GridCell.Tab.0.right" timestamp="1596199059265">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="456" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596196923880" />
+    <state width="1323" height="345" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596199059265" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1596176707115">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -193,9 +190,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1596179941662" />
-    <state x="339" y="17" width="670" height="676" key="search.everywhere.popup" timestamp="1596182631634">
+    <state x="339" y="17" width="672" height="676" key="search.everywhere.popup" timestamp="1596197685672">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="17" width="670" height="676" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1596182631634" />
+    <state x="339" y="17" width="672" height="676" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1596197685672" />
   </component>
 </project>

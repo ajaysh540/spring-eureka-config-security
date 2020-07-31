@@ -9,7 +9,6 @@ import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-
 public class ManagerApplication {
 
 	public static void main(String[] args) {

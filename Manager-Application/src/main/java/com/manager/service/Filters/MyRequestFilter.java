@@ -1,8 +1,9 @@
 package com.manager.service.Filters;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.BadCredentialsException;
+import org.springframework.security.authentication.InternalAuthenticationServiceException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.stereotype.Service;
 import org.springframework.web.filter.OncePerRequestFilter;
@@ -22,26 +23,20 @@ public class MyRequestFilter extends OncePerRequestFilter {
 
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
-        System.out.println(request);
-        String authHeader =request.getHeader("Authorization");
-        System.out.println(authHeader);
-        if(authHeader!=null && authHeader.startsWith("Basic ")){
+        try {
+            System.out.println(request);
+            String authHeader = request.getHeader("Authorization");
+            System.out.println(authHeader);
             String base64Credentials = authHeader.substring("Basic".length()).trim();
             byte[] credDecoded = Base64.getDecoder().decode(base64Credentials);
             String credentials = new String(credDecoded, StandardCharsets.UTF_8);
             System.out.println(credentials);
             String[] credentialsArray = credentials.split(":");
-            try {
-                authenticationManager.authenticate
-                        (new UsernamePasswordAuthenticationToken(credentialsArray[0], credentialsArray[1]));
-            }
-            catch( Exception e){
-                response.sendError(HttpStatus.UNAUTHORIZED.value(),"Invalid Login Credentials");
-            }
-            filterChain.doFilter(request,response);
+            authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(credentialsArray[0], credentialsArray[1]));
+            filterChain.doFilter(request, response);
         }
-        else{
-            response.sendError(HttpStatus.BAD_REQUEST.value(),"Login Credentials Not Found");
+        catch(ServletException | IOException | InternalAuthenticationServiceException | BadCredentialsException e){
+            throw new BadCredentialsException("Authorization Failed");
         }
     }
 }
