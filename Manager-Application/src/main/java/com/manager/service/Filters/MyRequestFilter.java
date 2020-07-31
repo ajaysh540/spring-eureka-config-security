@@ -1,6 +1,5 @@
 package com.manager.service.Filters;
 
-import lombok.SneakyThrows;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -21,7 +20,6 @@ public class MyRequestFilter extends OncePerRequestFilter {
     @Autowired
     private AuthenticationManager authenticationManager;
 
-    @SneakyThrows
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
         System.out.println(request);

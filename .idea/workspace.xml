@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb0787aa-47f9-45f0-9e1a-22deb4a21790" name="Default Changelist" comment="" />
+    <list default="true" id="fb0787aa-47f9-45f0-9e1a-22deb4a21790" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager-Application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Manager-Application/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager-Application/src/main/java/com/manager/service/Config/CloudConfigurations.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager-Application/src/main/java/com/manager/service/Config/CloudConfigurations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager-Application/src/main/java/com/manager/service/Controller/ManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager-Application/src/main/java/com/manager/service/Controller/ManagerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager-Application/src/main/java/com/manager/service/Filters/MyRequestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Manager-Application/src/main/java/com/manager/service/Filters/MyRequestFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager-Application/src/main/java/com/manager/service/Service/UrlService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Manager-Application/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Manager-Application/src/main/resources/bootstrap.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +22,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="G:\Project\Task-ms\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,12 +40,14 @@
     </option>
   </component>
   <component name="ProjectId" id="1fRJTAcwHxK36c7FjdOadfCjGCf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Employee-Application" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -145,22 +165,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1596182324278" />
-    <state width="1323" height="456" key="GridCell.Tab.0.bottom" timestamp="1596196680611">
+    <state width="1323" height="456" key="GridCell.Tab.0.bottom" timestamp="1596196923880">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="456" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596196680611" />
-    <state width="1323" height="456" key="GridCell.Tab.0.center" timestamp="1596196680610">
+    <state width="1323" height="456" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596196923880" />
+    <state width="1323" height="456" key="GridCell.Tab.0.center" timestamp="1596196923880">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="456" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596196680610" />
-    <state width="1323" height="456" key="GridCell.Tab.0.left" timestamp="1596196680610">
+    <state width="1323" height="456" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596196923880" />
+    <state width="1323" height="456" key="GridCell.Tab.0.left" timestamp="1596196923880">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="456" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596196680610" />
-    <state width="1323" height="456" key="GridCell.Tab.0.right" timestamp="1596196680611">
+    <state width="1323" height="456" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596196923880" />
+    <state width="1323" height="456" key="GridCell.Tab.0.right" timestamp="1596196923880">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="456" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596196680611" />
+    <state width="1323" height="456" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596196923880" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1596176707115">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
