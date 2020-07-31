@@ -15,6 +15,16 @@ End Points:
   - manager/updateemployee(PUT)
   - manager/deleteemployee(DELETE)
   
+  employee details needed to be passed:
+  
+    {
+    "Id": ,//Long value
+    "firstName":"",
+    "lastName":"",
+    "department":"",//String
+    "contactNumber", //Long Value
+    }
+    
 This service consumes Employee-service. 
 Two profiles are added as Default and build.
 
