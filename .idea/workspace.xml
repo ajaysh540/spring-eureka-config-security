@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fb0787aa-47f9-45f0-9e1a-22deb4a21790" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Employee-Application/src/main/java/com/employee/service/Filters/MyRequestFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Employee-Application/src/main/java/com/employee/service/Filters/MyRequestFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +55,7 @@
       <recent name="G:\Project\Task-ms\Employee-Application" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ManagerApplication">
+  <component name="RunManager" selected="Application.EmployeeApplication">
     <configuration name="ConfigServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.config.ConfigServerApplication" />
       <module name="Config-Server" />
@@ -111,10 +110,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ManagerApplication" />
-        <item itemvalue="Application.EurekaServerApplication" />
         <item itemvalue="Application.EmployeeApplication" />
+        <item itemvalue="Application.ManagerApplication" />
         <item itemvalue="Application.ConfigServerApplication" />
+        <item itemvalue="Application.EurekaServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -160,22 +159,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="112" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1596182324278" />
-    <state width="1323" height="444" key="GridCell.Tab.0.bottom" timestamp="1596204870438">
+    <state width="1323" height="344" key="GridCell.Tab.0.bottom" timestamp="1596464072936">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="444" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596204870438" />
-    <state width="1323" height="444" key="GridCell.Tab.0.center" timestamp="1596204870438">
+    <state width="1323" height="344" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596464072936" />
+    <state width="1323" height="344" key="GridCell.Tab.0.center" timestamp="1596464072920">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="444" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596204870438" />
-    <state width="1323" height="444" key="GridCell.Tab.0.left" timestamp="1596204870438">
+    <state width="1323" height="344" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596464072920" />
+    <state width="1323" height="344" key="GridCell.Tab.0.left" timestamp="1596464072920">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="444" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596204870438" />
-    <state width="1323" height="444" key="GridCell.Tab.0.right" timestamp="1596204870438">
+    <state width="1323" height="344" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596464072920" />
+    <state width="1323" height="344" key="GridCell.Tab.0.right" timestamp="1596464072936">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="444" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596204870438" />
+    <state width="1323" height="344" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596464072936" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1596176707115">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
