@@ -22,7 +22,6 @@ public class MyRequestFilter extends OncePerRequestFilter {
     @Autowired
     private AuthenticationManager authenticationManager;
 
-    @SneakyThrows
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
         try {
