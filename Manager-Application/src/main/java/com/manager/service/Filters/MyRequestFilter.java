@@ -22,7 +22,7 @@ public class MyRequestFilter extends OncePerRequestFilter {
     private AuthenticationManager authenticationManager;
 
     @Override
-    protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
+    protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) {
         try {
             System.out.println(request);
             String authHeader = request.getHeader("Authorization");
@@ -36,7 +36,7 @@ public class MyRequestFilter extends OncePerRequestFilter {
             filterChain.doFilter(request, response);
         }
         catch(ServletException | IOException | InternalAuthenticationServiceException | BadCredentialsException e){
-            throw new BadCredentialsException("Authorization Failed");
+            throw new BadCredentialsException("Login Failed. Check credentials!",e);
         }
     }
 }
